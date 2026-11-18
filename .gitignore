@@ -1,0 +1,33 @@
+# Secrets
+code/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Generated course artifacts (never commit)
+code/data/raw/
+code/data/processed/
+code/index/bm25/
+code/index/dense_bge/
+code/index/dense_qwen3/
+test_prediction.jsonl
+validation_predictions.jsonl
+*.db
+*.db-wal
+*.db-shm
+*.faiss
+*.safetensors
+*.bin
+*.pt
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

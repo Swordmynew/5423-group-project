@@ -250,6 +250,8 @@ The output file has exactly:
 
 ### UI
 
+![Bilingual Gradio UI](../docs/gui.png)
+
 ```bash
 python3 ui/gradio_app.py --server-name 0.0.0.0 --server-port 7860
 ```
