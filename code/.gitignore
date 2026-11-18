@@ -1,0 +1,46 @@
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Generated artifacts (keep them on the data disk; never submit)
+data/raw/
+data/processed/
+index/bm25/
+index/dense_bge/
+index/dense_qwen3/
+../data/
+../index/
+../models/
+../hf_cache/
+*.db
+*.db-wal
+*.db-shm
+*.faiss
+*.i32
+*.npy
+*.f32
+*.safetensors
+*.bin
+*.pt
+doc_ids.json
+progress.json
+plan.json
+
+# Local outputs
+../test_prediction.jsonl
+../dev_predictions.jsonl
+eval_details.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
